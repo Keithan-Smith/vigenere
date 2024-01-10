@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: vigenere
+Version: 0.0.3
+Summary: A Python implementation of the Vigenère cipher.
+Author: Keithan Smith
+Author-email: kjs20@ic.ac.uk
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# VigenÃ¨re Cipher Package
+
+This Python package provides an implementation of the VigenÃ¨re cipher, a method of encrypting text by using a simple form of polyalphabetic substitution.
+
+## Features
+
+- `vigencrypt`: Encrypts a message using the VigenÃ¨re cipher.
+- `vigdecrypt`: Decrypts a message encrypted with the VigenÃ¨re cipher.
+
+## Installation
+
+You can install this package by downloading the `.whl` file and running:
+
+```bash
+pip install path/to/vigenere-0.0.1-py3-none-any.whl
+```
+Note, change `path/to/` to the actual location of the `.whl` on user's computer.
+
+Or, if you have the source code, navigate to the root directory of this package and run:
+```bash
+pip install .
+```
+## Usage
+Import the vigencrypt and vigdecrypt functions from the package and use them as follows:
+```
+from vigenere import vigencrypt, vigdecrypt
+
+# Example usage
+encrypted_message = vigencrypt("Hello, World!", "KEY")
+decrypted_message = vigdecrypt(encrypted_message, "KEY")
+
+print("Encrypted:", encrypted_message)
+print("Decrypted:", decrypted_message)
+```
+
+## Contributing
+Contributions to this package are welcome. Please ensure to write tests for new features and fix any issues you encounter.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.

@@ -1,0 +1,6 @@
+README.md
+setup.py
+vigenere.egg-info/PKG-INFO
+vigenere.egg-info/SOURCES.txt
+vigenere.egg-info/dependency_links.txt
+vigenere.egg-info/top_level.txt
